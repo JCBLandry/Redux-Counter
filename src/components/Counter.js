@@ -51,11 +51,6 @@ const mapStateToProps = (state) => {
     };
 };
 
-// const mapDispatchToProps = {
-//     increment: increment,
-//     decrement: decrement,
-// }
-
 // The connect function is called in order to make this component aware
 // of the rest of the redux architecture. Without this, this component
 // is only a dumb React component. We pass in all of the functions that
