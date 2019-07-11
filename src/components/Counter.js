@@ -58,5 +58,4 @@ const mapStateToProps = (state) => {
 // makes itself known to this component.
 export default connect(
     mapStateToProps,
-    // mapDispatchToProps,
     { increment, decrement })(Counter);
